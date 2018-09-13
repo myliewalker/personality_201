@@ -9,7 +9,7 @@ public class Personality {
 	 */
 	
 	public Personality(String name) {
-		// TODO: complete constructor
+		myName = name;
 	}
 	
 	/**
@@ -26,8 +26,7 @@ public class Personality {
 	 * @return this objects identifying String/label
 	 */
 	public String getName() {
-		// TODO: complete this method
-		return "ola";
+		return myName;
 	}
 	
 	/**
@@ -37,6 +36,9 @@ public class Personality {
 	 */
 	
 	public String getDescription() {
-		return "playful";
+		if (myName.length() <= 4 || myName.equals("they with no name")) {
+			return "playful";
+		}
+		return "argumentative";
 	}
 }
