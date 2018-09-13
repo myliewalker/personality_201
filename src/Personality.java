@@ -36,7 +36,7 @@ public class Personality {
 	 */
 	
 	public String getDescription() {
-		if (myName.length == 0)
+		if (myName.length() == 0)
 		{
 			return "argumentative";
 		}
