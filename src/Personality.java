@@ -36,9 +36,9 @@ public class Personality {
 	 */
 	
 	public String getDescription() {
-		// if (myName.length() <= 4 || myName.equals("they with no name")) {
-		// 	return "playful";
-		// }
+		if (myName.length() <= 4 || myName.equals("they with no name")) {
+			return "playful";
+		}
 		return "argumentative";
 	}
 }
