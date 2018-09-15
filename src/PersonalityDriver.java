@@ -9,11 +9,5 @@ public class PersonalityDriver {
 		System.out.println(p.getDescription());
 		System.out.println(q.getDescription());
 		
-		System.out.println(getDescription());
-	}
-
-	private static String getDescription() {
-		// TODO Auto-generated method stub
-		return "argumentative";
 	}
 }
